@@ -1,1 +1,0 @@
-Images that are on the webpage will be stored in this folder
