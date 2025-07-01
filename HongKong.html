@@ -1,59 +1,84 @@
-<!-- Slideshow container -->
-<link rel="stylesheet" href="assets/css/Gallery.css">
-<div class="slideshow-container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trip to Southeast Asia</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
-      <img src="images/CBS.jpg" style="width: 100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/CBSS.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
+    <body>
+         <a href="/itwp1000/home.htm">Back to Course Homepage</a>
+        <header>
+            <h1 style="text-align: center;">Trip to Southeast Asia</h1>
+        </header>
 
-    <div class="mySlides fade">
-      <div class="numbertext">4 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-  </div>
+        <nav>
+            <hr>
+           <a href="default.html">Home</a> - <a href="Bangkok.html">Bangkok</a> - 
+            <a href="Singapore.html">Singapore</a> - <a href="HongKong.html">Hong Kong</a> - <a href="Macau.html">Macau</a>
+            <hr>
+        </nav>
 
-  <script >
-    let slideIndex = 0;
-showSlides();
+        <main>
+            <h2 style="text-align: center;">My experience in Hong Kong</h2>
+            <figure>
+                <img src="images/HongKong1.jpg" alt="Ngong Ping"  class="center" style="width: 50%;">
+                <figcaption>The City of Hong Kong viewed from Ngong Ping platform</figcaption>
+            </figure>
+            <p>
+               Hong Kong was one of the cities we both were extremely excited to visit! I was excited as someone who works in the technology field
+               because of how technologically advanced Hong Kong is. This was the second out of country experience we both had together and we had hoped it
+               would be a bit better than Singapore. We had a bit of an issue finding the bus to the hotel as I do not speak as much Chinese as I do Thai. Most of
+               the people told us we needed to go to a specific gate but Google Maps was telling me something different. We ended up taking a taxi which cost quite a bit
+               more than the free bus that we could not find. We spent the first day exploring the mall as well as attempting to ride the Ngong Ping 360, a cable car that takes
+               you to the traditional village of Ngong Ping (video below). I was extremely scared on the Ngong Ping due to my fear of heights but I eventually got over it as soon
+               as we cleared the first tower. This was the first time my girlfriend had seen me scared on the entire trip and I was quite embarressed as I was excited every time 
+               we took a flight together but I was somehow scared of 400ft above the ground. Then again, she was always the one screaming when turbulence hit while I was sitting 
+               there laughing as I am a frequent flyer and had been on over 4 flights just to get to Thailand and experienced turbulence from Seatte to Taiwan. After the Ngong Ping,
+               we explored the traditional village of Ngong Ping before boarding the bus to get down the mountain as another round trip on the Ngong Ping sounded a bit too much for
+               one day.
+            </p>
+            <div style="display: flex; justify-content: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bbC--pijLfs?si=c7hxb2JiWhDhxUlZ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides fade");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
-}
-    </script>
+           
+
+            <figure>
+                <img src="images/HongKong2.jpg" alt="Traditional Market" class="center" style="width: 75%">
+                <figcaption>A traditional market I wound up in on accident</figcaption>
+            </figure>
+
+            <p>
+                While we had a great time in Ngong Ping, it was time to head down the mountain and back to the city of Hong Kong. I opted for a bus ride down the mountain as
+                I wasn't ready for another ride on the Ngong Ping 360. In Hong Kong, there is a payment service for transportation called 
+                <a href="https://www.octopus.com.hk/en/consumer/index.html">The Octopus Card</a> which allow you to "top off" the card with HKD (Hong Kong Dollars) so you can access any of the 
+                transportation systems throughout the city of Hong Kong. This was the first purchase we made as taking taxis everywhere would get expensive fast. We had just enough funds to board
+                the bus to get off the mountain but we were unaware there would be another fee as we boarded the other bus. This is where the photo above comes in. We ended up being stuck in this
+                traditional fishing village in Hong Kong for a few minutes trying to find an ATM. The village was absolutely beautiful and would have been amazing to stay the night in however the
+                bus that we needed to get off the mountain was on it's last trip of the day and if we did not board it we would be stuck on the mountain overnight. I eventually found an ATM and pulled
+                enough money out for the next few days and sprinted back to the bus while my girfriend waited with the driver. He still could not make change therefore I had to sprint back in the village,
+                purchase a drink, and sprint back to the bus. I eventually opted for some sort of electrolyte tea(I couldn't read the Chinese) and we both boarded the bus just in time. The next day was spent in Hong 
+                Kong Disneyland, the thing my girlfriend was the most excited for.
+            </p>
+
+
+
+            <p>
+              
+            </p>
+            <hr>
+        </main>
+
+
+        <footer>
+            <p style="text-align: center;">For more information please contact: <a href="mailto:catanesel254@macomb.edu">Logan</a></p>
+            <h3 style="text-align: center;">FOR EDUCATIONAL PURPOSES ONLY. NO COMMERCIAL VALUE.</h3>
+            <p style="text-align: center;">Images courtesy of Logan Catanese</p>
+            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcatanesel784.macombserver.net%2Fitwp1000%2FWebProject1%2FHongKong.html" title="HTML5 Validation">HTML5 Validation</a></p>
+        </footer>
+
+
+
+    </body>
+</html>
