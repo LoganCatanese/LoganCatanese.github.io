@@ -1,59 +1,75 @@
-<!-- Slideshow container -->
-<link rel="stylesheet" href="assets/css/Gallery.css">
-<div class="slideshow-container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trip to Southeast Asia</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
-      <img src="images/CBS.jpg" style="width: 100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/CBSS.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
+    <body>
+         <a href="/itwp1000/home.htm">Back to Course Homepage</a>
+        <header>
+            <h1 style="text-align: center;">Trip to Southeast Asia</h1>
+        </header>
 
-    <div class="mySlides fade">
-      <div class="numbertext">4 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-  </div>
+        <nav>
+            <hr>
+            <a href="default.html">Home</a> - <a href="Bangkok.html">Bangkok</a> - 
+            <a href="Singapore.html">Singapore</a> - <a href="HongKong.html">Hong Kong</a> - <a href="Macau.html">Macau</a>
+            <hr>
+        </nav>
 
-  <script >
-    let slideIndex = 0;
-showSlides();
+        <main>
+            <h2 style="text-align: center;">My experience in Studio City, Macau</h2>
+            <figure>
+                <img src="images/Macau1.jpg" alt="Short Exposure" class="center" style="width: 50%;">
+                <figcaption>Shorter Exposure photo of the streets of Macau</figcaption>
+            </figure>
+            <p>
+                After our casino win in Macau and all of the money spent in Singapore and Hong Kong, we were hoping to hit the jackpot in Macau. We only had 2 days here and upon arrival
+                we went to check in at our hotel and were upgraded to a suite! This was already a shocker, as a suite can run you upwards of $400USD a night and comes with all the amentities.
+                Upon entry of the suite, it was like a small apartment with a massive circular couch and my name on the TV, a first for me. I was treated with the upmost respect and the staff
+                cleaned the room 3 times a day, something that is unthinkable in the USA. We spent most of the first day exploring our hotel, <a href="https://www.studiocity-macau.cn/en">Studio City Macau</a>
+                which could be considered a small mall in itself. I took my girfriend to get her first "real" steak at a food court within the hotel that she talks about still. I tried to find a
+                similar restaurant for her in Bangkok but was unable to find somewhere serving that type of meal. I assured her as we go through the visa process her first meal in the USA can be a steak.
+                
+            </p>
+            <br>
 
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides fade");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
-}
-    </script>
+            <figure>
+                <img src="images/Macau2.jpg" alt="Long Exposure" style="width: 50%" class="center">
+                <figcaption>Long Exposure Photo of Studio City</figcaption>
+            </figure>
+
+            <p>
+               Studio city was a wonderful area full of life and nightlife, however, compared to Bangkok most places closed much earlier meaning the earlier you arrived the better
+               chance you have at a good experience. We tried to do many things at night other than the casinos but at the end of the day those were the only things entertainment wise
+               that we both enjoyed. We also ended up visiting a water park together, something I had experienced many times before but another first for her. I love dating a foreign
+               girl because of all the new things we get to teach one another, for example I had to learn how to "Wai". A proper Thai gesture that I will link a video of down below.
+               The Wai is a Thai greeting that should be done when meeting a Thai woman's parents for the first time (or anyone for the first time), I had done it many times over the phone but the first time in 
+               real life was uncomfortable.
+            </p>
+            <br>
+
+            <div style="display: flex; justify-content: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SRtsCuVqxtQ?si=61OIRhfIzLq9t2-Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+
+
+            <hr>
+
+        </main>
+
+
+        <footer>
+            <p style="text-align: center;">For more information please contact: <a href="mailto:catanesel254@macomb.edu">Logan</a></p>
+            <h3 style="text-align: center;">FOR EDUCATIONAL PURPOSES ONLY. NO COMMERCIAL VALUE.</h3>
+            <p style="text-align: center;">Images courtesy of Logan Catanese</p>
+            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcatanesel784.macombserver.net%2Fitwp1000%2FWebProject1%2FMacau.html" title="HTML5 Validation">HTML5 Validation</a></p>
+        </footer>
+
+
+
+    </body>
+</html>

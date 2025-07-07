@@ -1,59 +1,86 @@
-<!-- Slideshow container -->
-<link rel="stylesheet" href="assets/css/Gallery.css">
-<div class="slideshow-container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Trip to Southeast Asia</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
 
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlides fade">
-      <div class="numbertext">1 / 4</div>
-      <img src="images/CBS.jpg" style="width: 100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">2 / 4</div>
-      <img src="images/CBSS.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <div class="mySlides fade">
-      <div class="numbertext">3 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext">4 / 4</div>
-      <img src="images/CBSHKG.jpg" style="width:100%" alt="">
-      <div class="text"></div>
-    </div>
-  
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
-  
-  <!-- The dots/circles -->
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-  </div>
-
-  <script >
-    let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides fade");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
+    <style>
+        .audio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-    </script>
+    </style>
+
+    <body>
+         <a href="/itwp1000/home.htm">Back to Course Homepage</a>
+        <header>
+            <h1 style="text-align: center;">Trip to Southeast Asia</h1>
+        </header>
+
+        <nav>
+            <hr>
+            <a href="default.html">Home</a> - <a href="Bangkok.html">Bangkok</a> - 
+            <a href="Singapore.html">Singapore</a> - <a href="HongKong.html">Hong Kong</a> - <a href="Macau.html">Macau</a>
+            <hr>
+        </nav>
+
+        <main>
+            <h2 style="text-align: center;">My experience in Singapore</h2>
+            <figure>
+                <img src="images/Singapore1Edited.jpg" alt="Marina Bay Sands Casino" class="center" style="width: 50%;">
+                <figcaption>Marina Bay Sands Casino</figcaption>
+            </figure>
+            <p>
+                Singapore is considered one of the richest cities in the world (4th Globally) and has over 242,400 Milionaires. I spent 3 days
+                exploring the city and enriching myself in the culture with my girlfriend. She had never left Thailand before and this was our first international trip
+                together which can prove to be difficult, let alone after the first time we met each other in real life. Singapore has one of the nicest transportation systems as well
+                as 50% of the city covered in green spaces earning it the name "City in a Garden". They also have one of the tallest indoor waterfalls, which I made sure to visit when
+                I was in Singapore Changi Airport. We had quite a bit of trouble navigating the public transportation system, but by the end of my 3 days in the city I felt like a pro!
+                While we were having a slight disagreement, I saw a video pop up on social media about navigating public transportation (in another country) with your significant other being the true test!
+                They say if by the end you have not broken up or argued extensively you are made to be. We are not broken up and only had one argument which I consider a win in my book!
+            </p>
+            <br>
+
+            <figure>
+                <img src="images/WaterfallEdit.jpg" alt="Waterfall" style="width: 25%" class="center">
+                <figcaption>The worlds tallest waterfall at Singapore Changi Airport</figcaption>
+            </figure>
+
+            <p>
+                We also both experienced the casino for the first time, where I ended up hitting the mini jackpot and winning around $300USD. I was concerned about losing a
+                lot of money but sticking to the small slots and playing smart seemed to be the way to go. The cost of living in Singapore is considerably higher than Thailand.
+                The cost of living in Singapore is almost 300% higher than Thailand and the food and dining is much cheaper in Thailand. A simple meal for the two of us in Thailand
+                was around $20USD where in Singapore we were paying close to $40 for a low end restaurant. Overall, this was my first time ever experiencing anything like the city of
+                Singapore and I hope to return for another visit next year when I will be spending a considerable amount of time in Thailand.
+            </p>
+            <br>
+
+
+            <h4 style="text-align: center;">Train Announcement in Singapore</h4>
+            <div class="audio-container">
+                 <audio controls >
+                    <source src="audio/tennoji-station-announcement-71357.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+
+
+
+            <hr>
+
+        </main>
+
+
+        <footer>
+            <p style="text-align: center;">For more information please contact: <a href="mailto:catanesel254@macomb.edu">Logan</a></p>
+            <h3 style="text-align: center;">FOR EDUCATIONAL PURPOSES ONLY. NO COMMERCIAL VALUE.</h3>
+            <p style="text-align: center;">Images courtesy of Logan Catanese</p>
+            <p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcatanesel784.macombserver.net%2Fitwp1000%2FWebProject1%2FSingapore.html" title="HTML5 Validation">HTML5 Validation</a></p>
+        </footer>
+
+
+
+    </body>
+</html>
